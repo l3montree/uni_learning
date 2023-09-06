@@ -15,3 +15,12 @@ ml = lambda x,y: (N+2)*y+x
 
 list_ = np.zeros()
 
+t_steps = 5
+x_steps =5
+y_steps =5
+
+
+for t in range(t_steps):
+    for x in range(x_steps):
+        for y in range(y_steps):
+            
